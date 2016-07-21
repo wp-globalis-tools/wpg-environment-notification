@@ -48,7 +48,7 @@ function print_inline_style($color) {
     @media screen and ( max-width: 782px ) { body.admin-bar #wpg-env-info { top: 61px; } }
     #wpg-env-info {
       font-family: Arial, Verdana; font-size: 15px; color: #FFFFFF; text-transform: uppercase; font-weight: bold;
-      position: fixed; right: 0px; padding: 5px 10px; margin: 0;
+      position: fixed; z-index: 999; right: 0px; padding: 5px 10px; margin: 0;
       border: 2px solid #FFFFFF; border-right: 0px;
       -webkit-border-top-left-radius: 5px;
       -webkit-border-bottom-left-radius: 5px;
