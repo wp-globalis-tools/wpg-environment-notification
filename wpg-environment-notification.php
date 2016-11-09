@@ -11,7 +11,7 @@
  * Tested up to:        4.4.2
  */
 
-namespace WPG\EnvWarning;
+namespace Globalis\EnvWarning;
 
 // Block direct requests
 if ( ! defined( 'ABSPATH' ) ) {
